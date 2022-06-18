@@ -1,0 +1,555 @@
+@charset "UTF-8";
+/*
+black : rgb(33, 29, 30); 
+
+yellow : rgb(250, 176, 17);
+
+box-shadow: rgba(0, 0, 0, .05) 0 2px 2px, rgba(0, 0, 0, .05) 0 4px 4px;
+
+*/
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #EEE;
+    font-size: 14px;
+line-height: 21px;
+font-weight: 400;
+letter-spacing: 0px;
+
+
+
+
+
+}
+
+/*
+the begin of first div
+
+*/
+
+header{
+    background-color:#a8f9a8;
+    
+    background-image: url(../images/homeServiceBGBlack.jpg);
+    height: 512px;
+    position: relative;
+
+}
+header nav {
+    margin-top: -9px;
+    font-size: 20px;
+    z-index: 1000;
+
+
+}
+
+.navbar{
+
+    transition: all .3s ease;
+}
+header nav .logo{
+    background-color:#ffffff;
+
+   padding: 20px;
+    margin-right: 60px;
+    box-shadow: rgba(0, 0, 0, .05) 0 2px 2px, rgba(0, 0, 0, .05) 0 4px 4px;
+    clip-path: polygon(0% 0%,100% 0%, 100% 85%,0 100%);
+
+}
+header nav .logo-2{
+
+   padding: 20px;
+    margin-right: 60px;
+    
+
+}
+
+
+}
+header nav .logo img{
+    
+
+}
+header nav ul li{
+/*    padding: 61px 15px;
+    ​transition: height 2s  ;*/
+  background-color: none;
+  padding: 61px 15px;
+  box-shadow: none;
+  transition: background-color .8s ,box-shadow 1S ;
+  transition-timing-function: ease-in-out;
+
+
+}
+header nav ul li:hover{
+/*    background-color: #FFF;
+    padding: 61px 15px;
+    
+transition: all ease 2s;*/
+
+padding: 61px 15px;
+background-color: #FFF;
+box-shadow: rgba(0, 0, 0, .05) 0 2px 2px, rgba(0, 0, 0, .05) 0 4px 4px;
+
+}
+.navbar-background{
+    padding: 5px 20px ;
+        margin-top: -9px;
+    background-color: #fff;
+    opacity: .8;
+}
+
+.navbar-background li{
+
+
+  padding: 0px 15px;
+  
+
+
+}
+.navbar-background ul li:hover{
+
+
+padding: 0px 15px;
+background-color: #FFF;
+box-shadow: none;
+
+}
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.viewport-header {
+    position: absolute;
+    left: 55%;
+    right: 20%;
+    top: 75%;
+
+}
+.text-responsive {
+  font-size: calc(100% + 1vw + 1vh);
+}
+
+.viewport-header h1{
+    font-weight:bold; ;
+    text-align: justify;
+    color: ;
+    
+}
+/**/
+.company{
+    background-color:#ffffff;
+    background-image: url(../images/22.png);
+    min-height: 500px;
+    
+
+}
+
+.company-img {
+    top: -130px;
+    position: relative;
+}
+.company-img img{
+/*    max-width: 100%;
+    max-height: 100%;*/
+    width: 400px;
+    background-color: #fff;
+
+
+}
+.company-img .img-thumbnail{
+    border: 24px solid #f8f8f8;
+    border-radius:0;
+    /*clip-path: polygon(0% 0%,100% 0%, 100% 85%,0 100%);*/
+    box-shadow: rgba(0, 0, 0, 0.3) 30px 30px 25px,  rgba(0, 0, 0, .05) 0 4px 4px;
+    
+
+
+
+
+}
+.company-sec {
+    position: relative;
+    top: 61px;
+}
+.company-sec h2{
+font-size: 62px;
+line-height: 64px;
+font-weight: 700;
+letter-spacing: 0px;
+   color: #cdac89;
+}
+.company-sec p{
+   font-weight: ;
+   font-size: 20px;
+   
+}
+.company-sec a{
+   text-decoration: none;
+   font-size: 16px;
+   font-weight: bold;
+   padding-right: 10px;
+   color: #cdac89;
+}
+.company-sec a:hover{
+   color: #000000;
+}
+.company-sec a svg{
+    color: #000000;
+   margin: 0 0px 0px 6px;
+   
+}
+/*end company*/
+
+.services{
+    background-color:#000000;
+    background-image: url(../images/homeServiceBGBlack.jpg);
+    min-height: 650px;
+      background-position: right top;;
+  background-repeat: no-repeat;
+/*  background-size: cover;
+*/  position: relative;
+color: #fff;
+
+
+}
+.services .services-img{
+    max-width: 100%;
+    height: auto;
+
+}
+.services h2{
+   
+   color: #cdac89;
+   font-size: 62px;
+line-height: 64px;
+font-weight: 700;
+letter-spacing: 0px;
+border-color: #FFF;
+padding-bottom: 65px;
+}
+.services h3{
+   
+   color: #cdac89;
+font-weight: 700;
+letter-spacing: 0px;
+
+
+}
+.services .services-small-img {
+    background-color: rgba(255, 255, 255, 255);
+    height: 170px;
+/*   position: absolute;
+*/    
+/*   background-color: rgba(255, 255, 255, 0.57);
+*/}
+.services .services-small-img img{
+  width: 130px;
+}
+
+
+
+.services .hServices__img__holder {
+    width: 90%;
+    height: 80%;
+    margin: 10% 10% 10% 0;
+    border-right: 3px solid #000;
+    -webkit-box-shadow: 5px 0 5px -5px rgba(0,0,0,1);
+    box-shadow: 5px 0 5px -5px rgba(0,0,0,1);
+    position: relative;
+    overflow: hidden;
+}
+
+
+.services .moveing-img {
+    position: relative;
+    left: 85px;
+    transition: all 1s ease;
+}
+
+
+.test{
+ transition: all 1s ease;
+}
+.test:hover .moveing-img{
+    position: relative;
+    left: 0px;
+}
+
+/*Start animal-categories*/
+.animal-categories{
+    background-color:#6bd6e8;
+    min-height: 900px;
+    background-image: url(../images/bg_dirty.jpg);
+    background-position: right top;;
+    background-repeat: no-repeat;
+    position: relative;
+    color: #fff;
+
+}
+.animal-categories  h2{
+   
+   color: #cdac89;
+   font-size: 62px;
+line-height: 64px;
+font-weight: 700;
+letter-spacing: 0px;
+border-color: #FFF;
+padding-bottom: 65px;
+
+
+}
+.animal-categories  .categorie-a{
+    background-image: url(../images/cow-bg-1.jpg);
+    background-position: right top;;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 370px;
+    
+
+}
+.animal-categories  .categorie-a h2{
+    color: #FFF;
+    font-size: 36px;
+    line-height: 64px;
+    font-weight: 700; 
+    padding-bottom: 20px;   
+
+}
+
+
+.animal-categories  .categorie-a .categorie-a-holder{
+overflow: hidden;
+}
+
+.animal-categories  .categorie-a .categorie-a-img{
+    width: 290px;
+    position: relative;
+    left: -30px;
+    transition: all 1s ease;
+}
+.animal-categories  .categorie-a:hover .categorie-a-img{
+
+    left: 0px;
+    
+}
+
+.animal-categories  .categorie-b{
+    background-image: url(../images/cow-bg-2.jpg);
+    background-position: right top;;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 370px;
+    
+
+}
+.animal-categories  .categorie-c{
+    background-image: url(../images/cow-bg-3.jpg);
+
+    
+
+}
+.animal-categories  .categorie-b h2{
+    color: #FFF;
+    font-size: 36px;
+    line-height: 64px;
+    font-weight: 700; 
+    padding-bottom: 20px;   
+
+}
+
+
+.animal-categories  .categorie-b .categorie-b-holder{
+overflow: hidden;
+}
+
+.animal-categories  .categorie-b .categorie-b-img{
+    width: 290px;
+    position: relative;
+    right: -75px;
+    transition: all 1s ease;
+}
+.animal-categories  .categorie-b:hover .categorie-b-img{
+
+    right: -60px;
+    
+}
+
+.animal-categories  .categorie-link-a{
+   
+    float: right;
+    margin-right: 20px; 
+    font-size: 20px;
+    background-color: #cdac89;
+    padding: 5px;
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+.animal-categories  .categorie-link-a:hover{
+   
+
+    background-color: #000000;
+
+    color: #cdac89;
+
+}
+
+.animal-categories  .categorie-link-b{
+   
+    float: left;
+    margin-left: 20px; 
+    font-size: 20px;
+    background-color: #cdac89;
+    padding: 5px;
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+.animal-categories  .categorie-link-b:hover{
+   
+
+    background-color: #ffffff;
+
+    color: #cdac89;
+
+}
+/*End animal-categories*/
+
+/*Start Company page*/
+.header-pages{
+    background-color:#a8f9a8;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/12.jpeg);
+/*    background-image: url(../images/homeServiceBGBlack.jpg);
+*/    height: 300px;
+    
+
+}
+
+.company-masg {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: #000000;
+}
+.company-masg h3{
+    color: rgb(205, 172, 137);
+    padding: 0 130px;
+/*    font-size: 32px;
+*/    line-height: 34px;
+    font-weight: 400;
+    letter-spacing: 0px; 
+}
+
+.company-post {
+    background-color: #ffffff;
+}
+.company-post h2{
+    color:  rgb(205, 172, 137);
+    font-weight: 700;
+    font-size: 32px;
+} 
+.company-post .company-post-years{
+    text-align: center;
+} 
+.company-post .company-post-years svg{
+    color: rgb(205, 172, 137);
+} 
+.company-post .company-post-years .years{
+    font-size: 60px;
+}
+.company-post .company-post-years-text{
+    text-align: justify;
+}
+.company-post .company-post-years-text .lead{
+    line-height: normal;
+}
+
+.company-post .title{
+
+}
+.company-post .contact{
+    line-height: 65px;
+    font-size: 18px;
+}
+.company-post .contact ul{
+    list-style: none;
+}
+.company-post .cname{
+    font-size: 20px;
+}
+.company-post .contact-form .btn-primary {
+    color: #fff;
+    background-color: #cdac89;
+    border-color: #cdac89;
+    border-radius: 0px;
+}
+.contact-sec{
+    background-color: #f8f8f8;
+}
+/* its good but need to try somthing else
+.header-pages .navbar-light .navbar-nav .active > .nav-link{
+    color: #ffffff;
+}
+.header-pages .navbar-light .navbar-nav .active > .nav-link:hover{
+    color: #cdac89;
+}*/
+/*End Company page*/
+
+
+
+footer{
+    background-color:#000000;
+    
+    color: #C1C3C6;
+
+}
+footer .footer-img img{
+    width: 200px;
+}
+
+footer .title{
+    color: #fff;
+}
+footer .sitemap{
+    line-height: 32px;
+}
+footer .sitemap ul{
+    list-style: none;
+}
+footer .sitemap ul a{
+    color: #C1C3C6;
+}
+
+footer .contact{
+    color: #ffffff;
+}
+footer .contact ul{
+    list-style: none;
+}
+footer .contact ul a{
+        color: #ffffff;
+
+}
+
+footer .rights{
+    border-top: 1px solid #1F1F20;
+    padding: 30px 10px;
+
+}
+
+/*the End  */
